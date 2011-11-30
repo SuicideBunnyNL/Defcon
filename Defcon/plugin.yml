@@ -1,5 +1,5 @@
 name: Defcon
-main: me.suicidebunnynl.defcon
+main: me.suicidebunnynl.defcon.Defcon
 version: 0.1
 commands:
    defcon:
