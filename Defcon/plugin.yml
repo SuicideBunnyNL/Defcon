@@ -1,0 +1,18 @@
+name: Defcon
+main: me.suicidebunnynl.defcon
+version: 0.1
+commands:
+   defcon:
+      description: Make someone unable to move, burn them or make them explode
+      usage:
+           /<command> [Player]
+permissions:
+    defcon.*:
+        description: Gives access to all defcon commands
+        children:
+            defcon.freeze.all: true
+            defcon.burn.all: true
+            defcon.explode.all: true
+            defcon.freeze.player: true
+            defcon.burn.player: true
+            defcon.explode.player: true
